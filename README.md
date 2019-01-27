@@ -1,12 +1,12 @@
-# Paul's fork of Luke's build of st - the simple (suckless) terminal
+# Paul's fork of Luke Smith's build of st - the simple (suckless) terminal
 
 The [suckless terminal (st)](https://st.suckless.org/) with some additional features:
 
 + ~~Compatibility with `Xresources` and `pywal` for dynamic colors.~~
 + ~~Default [gruvbox](https://github.com/morhetz/gruvbox) colors otherwise.~~
 + Colour scheme is Solarized with desaturated bases.
-+ F6 to swith light/dark modes. ([Patch](https://st.suckless.org/patches/solarized/)
-  applied by hand).
++ F6 to switch light/dark modes. ([Patch](https://st.suckless.org/patches/solarized/)
+  applied by hand cos I couldn't get 'git apply' to work?!).
 + ~~Transparency/alpha, which is also adjustable from `~/.Xresources`.~~
 + Transparency is set to 0. Transparency will be handled by window manager.
 + Default font is system "mono" at 15pt, meaning the font will match your system font.
