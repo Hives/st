@@ -87,44 +87,44 @@ unsigned int alpha = 0xff;
 
 /* Terminal colors */
 static const char *colorname[] = {
-	/* solarized dark */
-	"#073642",  /*  0: black    */
-	"#dc322f",  /*  1: red      */
-	"#859900",  /*  2: green    */
-	"#b58900",  /*  3: yellow   */
-	"#268bd2",  /*  4: blue     */
-	"#d33682",  /*  5: magenta  */
-	"#2aa198",  /*  6: cyan     */
-	"#eee8d5",  /*  7: white    */
-	"#002b36",  /*  8: brblack  */
-	"#cb4b16",  /*  9: brred    */
-	"#586e75",  /* 10: brgreen  */
-	"#657b83",  /* 11: bryellow */
-	"#839496",  /* 12: brblue   */
-	"#6c71c4",  /* 13: brmagenta*/
-	"#93a1a1",  /* 14: brcyan   */
-	"#fdf6e3",  /* 15: brwhite  */
+	/* solarized dark with paul's desaturated bases */
+	"#162d33",  /*  0: black    , base02 */
+	"#dc322f",  /*  1: red      , red */
+	"#859900",  /*  2: green    , green */
+	"#b58900",  /*  3: yellow   , yellow */
+	"#268bd2",  /*  4: blue     , blue */
+	"#d33682",  /*  5: magenta  , magenta */
+	"#2aa198",  /*  6: cyan     , cyan */
+	"#e8e5db",  /*  7: white    , base2 */
+	"#0e2329",  /*  8: brblack  , base03 */
+	"#cb4b16",  /*  9: brred    , orange */
+	"#5f6a6e",  /* 10: brgreen  , base01 */
+	"#6d787c",  /* 11: bryellow , base00 */
+	"#889091",  /* 12: brblue   , base0 */
+	"#6c71c4",  /* 13: brmagenta, violet */
+	"#979e9e",  /* 14: brcyan   , base1 */
+	"#f7f3ea",  /* 15: brwhite  , base3 */
 };
 
 /* Terminal colors for alternate (light) palette */
 static const char *altcolorname[] = {
 	/* solarized light */
-	"#eee8d5",  /*  0: black    */
-	"#dc322f",  /*  1: red      */
-	"#859900",  /*  2: green    */
-	"#b58900",  /*  3: yellow   */
-	"#268bd2",  /*  4: blue     */
-	"#d33682",  /*  5: magenta  */
-	"#2aa198",  /*  6: cyan     */
-	"#073642",  /*  7: white    */
-	"#fdf6e3",  /*  8: brblack  */
-	"#cb4b16",  /*  9: brred    */
-	"#93a1a1",  /* 10: brgreen  */
-	"#839496",  /* 11: bryellow */
-	"#657b83",  /* 12: brblue   */
-	"#6c71c4",  /* 13: brmagenta*/
-	"#586e75",  /* 14: brcyan   */
-	"#002b36",  /* 15: brwhite  */
+	"#e8e5db",  /*  0: black    , base2 */
+	"#dc322f",  /*  1: red      , red */
+	"#859900",  /*  2: green    , green */
+	"#b58900",  /*  3: yellow   , yellow */
+	"#268bd2",  /*  4: blue     , blue */
+	"#d33682",  /*  5: magenta  , magenta */
+	"#2aa198",  /*  6: cyan     , cyan */
+	"#162d33",  /*  7: white    , base02 */
+	"#f7f3ea",  /*  8: brblack  , base3 */
+	"#cb4b16",  /*  9: brred    , orange */
+	"#979e9e",  /* 10: brgreen  , base1 */
+	"#889091",  /* 11: bryellow , base0 */
+	"#6d787c",  /* 12: brblue   , base00 */
+	"#6c71c4",  /* 13: brmagenta, violet */
+	"#5f6a6e",  /* 14: brcyan   , base01 */
+	"#0e2329",  /* 15: brwhite  , base03 */
 };
 
 /*
